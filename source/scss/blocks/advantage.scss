@@ -1,0 +1,32 @@
+.advantage__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-self: space-between;
+  gap: 20px;
+  margin: 0;
+  margin-top: 48px;
+  padding: 0;
+  color: $pale-reddish-purple;
+  list-style: none;
+}
+
+.advantage__list__block {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 6px;
+  width: 390px;
+  line-height: 21px;
+}
+
+// .advantage__list__wrapper {
+//   width: 285px;
+// }
+
+.advantage__heading {
+  margin: 0;
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+.advantage__text {
+  margin: 0;
+}

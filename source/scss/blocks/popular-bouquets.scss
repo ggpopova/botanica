@@ -1,0 +1,78 @@
+.bouquet {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-bouquets {
+  margin-top: 78px;
+  padding-left: 30px;
+}
+
+.bouquet__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  max-width: 794px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.bouquet__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.popular-bouquets__heading {
+  margin: 0 auto;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: $pale-reddish-purple;
+  text-align: center;
+}
+
+.bouquet__heading,
+.bouquet__sale {
+  margin: 0;
+  font-weight: 500;
+}
+
+.bouquet__heading {
+  margin-top: 26px;
+}
+
+.bouquet__heading,
+.bouquet__sale {
+  font-size: 24px;
+}
+
+.bouquet__sale {
+  margin-top: 28px;
+}
+
+.bouquet__text {
+  margin: 0;
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.bouquet__btn {
+  margin-top: 62px;
+}
+
+.discount__btn {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 6px;
+}
+
+.discount__btn button {
+  padding: 10px;
+  background-color: #fff;
+  border: #fff;
+}

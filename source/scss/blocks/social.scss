@@ -1,0 +1,60 @@
+.social {
+  display: grid;
+  grid-template-columns: 387px auto;
+  gap: 121px;
+  margin-top: 75px;
+}
+
+.social__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.social__heading {
+  margin: 0;
+  padding-top: 69px;
+  text-align: left;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.social__text {
+  margin: 0;
+  margin-top: 39px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+}
+
+.social__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 97px;
+  margin: 0;
+  margin-top: 41px;
+  padding: 0;
+  list-style: none;
+}
+
+.social__img {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+}
+
+.social__img--roses {
+  grid-row-start: 2;
+}
+
+.social__img--carnation {
+  grid-column-start: 2;
+  grid-row-start: span 2;
+}
+
+ 

@@ -1,0 +1,38 @@
+.reviews {
+  display: grid;
+  justify-self: center;
+  max-width: 1200px;
+  margin: 79px auto 0;
+  padding: 40px 44px 64px;
+  border: solid 1px;
+}
+
+.reviews__heading {
+  margin: 0;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.reviews__block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 130px;
+  margin: 25px 0 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.reviews__text {
+  margin: 16px 0 0;
+  line-height: 20px;
+}
+
+.reviews__author {
+  margin: 16px 0 0;
+  font-weight: 500;
+}

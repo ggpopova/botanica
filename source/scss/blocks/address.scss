@@ -1,0 +1,68 @@
+.address {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 79px;
+}
+
+.address a {
+  max-height: 644px;
+}
+
+.address__img {
+  max-width: 100%;
+  background-color: $pale-reddish-purple;
+}
+
+.address__heading {
+  margin: 0;
+  text-align: left;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.address__block {
+  position: absolute;
+  top: 52px;
+  left: 596px;
+  right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 386px;
+  min-height: 520px;
+  margin: 0 auto;
+  padding: 40px 35px 65px;
+  background-color: $basic-white;
+  list-style: none;
+}
+
+.address__street {
+  margin-top: 23px;
+}
+
+.address__operating-mode {
+  margin-top: 14px;
+}
+
+.address__phone {
+  margin-top: 16px;
+}
+
+.address__street,
+.address__operating-mode,
+.address__phone, 
+.address__mail {
+  margin: 0;
+}
+
+.address__street address,
+.address__operating-mode--heading,
+.address__phone--phone,
+.address__mail--mail {
+  font-weight: 500;
+}

@@ -1,0 +1,39 @@
+.designer-bouquets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 79px;
+}
+
+.designer-bouquets__block {
+  max-width: 384px;
+}
+
+.designer-bouquets__heading {
+  margin: 0;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+  color: $pale-reddish-purple;
+}
+
+.designer-bouquets__text {
+  margin: 0;
+  margin-top: 25px;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.designer-bouquets__btn {
+  margin-top: 65px;
+}
+
+.designer-bouquets__img--tulips {
+  margin-top: 60px;
+}
+
+.designer-bouquets__img--stylist-roses {
+  margin-bottom: 41px;
+}
